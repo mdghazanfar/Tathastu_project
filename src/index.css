@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:ital,wght@1,300&family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "muli", sans-serif;
+}
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid#565387;
+}
+
+.navbar a:hover {
+  color: #bd6f29 !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#navbarSupportedContent {
+  align-self: center;
+}
+.navbar-light .navbar-brand {
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #333 !important;
+  font-size: 1.5rem;
+}
+.bg-light {
+  color: aqua !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #bd6f29 !important;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+.card-title {
+  font-weight: bold;
+}
+.text-center {
+  color: #bd6f29 !important;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #bd6f29;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #bd6f29;
+  border: 2px solid #bd6f29;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background: #bd6f29;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+}
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
